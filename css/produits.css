@@ -100,7 +100,7 @@ html {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 250px) {
     .navbar a:not(:first-child) {
         display: none;
     }
@@ -110,7 +110,7 @@ html {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 250px) {
     .navbar.responsive {
         position: relative;
     }
