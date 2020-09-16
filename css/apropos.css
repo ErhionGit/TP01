@@ -1,4 +1,10 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
 body {
+    height: 100%;
     margin: 0;
 }
 
@@ -14,7 +20,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 32.08%;
+    width: 33.33%;
     text-align: center;
 }
 
@@ -30,6 +36,12 @@ body {
 
 .navbar .icon {
     display: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 @media screen and (max-width: 250px) {

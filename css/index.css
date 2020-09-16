@@ -1,5 +1,9 @@
-body,
 html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
     height: 100%;
     margin: 0;
 }
@@ -42,6 +46,12 @@ h1 {
 .navbar a.active {
     background-color: darkgrey;
     color: white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 .parallax {
