@@ -152,3 +152,10 @@ polygon {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .menu-box-items {
+        width: 100%;
+        display: block;
+    }
+}
