@@ -63,7 +63,7 @@ h1 {
     background-size: cover;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 250px) {
     .navbar a {
         float: none;
         display: block;
@@ -71,8 +71,9 @@ h1 {
     }
 }
 
-@media only screen and (max-device-width: 1366px) {
+
+/* @media only screen and (max-device-width: 1366px) {
     .parallax {
         background-attachment: scroll;
     }
-}
+} */
