@@ -20,16 +20,10 @@ p {
     text-align: justify;
 }
 
-#info-text {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 40px;
-    margin-bottom: 3%;
-    text-align: center;
-    background-color: white;
-}
-
 .navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
     background-color: grey;
     overflow: auto;
     width: 100%;
@@ -61,9 +55,26 @@ p {
     box-sizing: inherit;
 }
 
+.caption {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
 .parallax {
     background-image: url("https://www.renoassistance.ca/wp-content/uploads/2020/03/grand-m%C3%A9nage-printemps.jpg");
     height: 40%;
+    opacity: 0.75;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -141,10 +152,3 @@ polygon {
         width: 100%;
     }
 }
-
-
-/* @media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-} */
