@@ -12,7 +12,12 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 7%;
+}
+
+p {
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: justify;
 }
 
 #info-text {
