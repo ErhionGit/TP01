@@ -21,7 +21,7 @@ body {
 
 .navbar a {
     float: left;
-    padding: 0.65%;
+    padding: 12px;
     color: white;
     text-decoration: none;
     font-size: 17px;

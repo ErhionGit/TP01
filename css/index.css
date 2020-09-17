@@ -22,7 +22,7 @@ p {
 
 .caption {
     position: relative;
-    padding-top: 10%;
+    padding-top: 190px;
     width: 100%;
     text-align: center;
     color: #000;
@@ -114,5 +114,9 @@ polygon {
     #menu-box {
         width: 90%;
         display: block;
+    }
+    .menu-box-items {
+        margin-bottom: 30px;
+        margin-right: 0px;
     }
 }
