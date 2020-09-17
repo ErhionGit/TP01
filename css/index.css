@@ -21,8 +21,8 @@ p {
 }
 
 .caption {
-    position: fixed;
-    top: 20%;
+    position: relative;
+    padding-top: 10%;
     width: 100%;
     text-align: center;
     color: #000;
