@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: ff-meta-web-pro, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: grey;
+    overflow: auto;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(35, 31, 32, .1);
+    transition: all .25s ease;
+}
+
+.navbar a {
+    float: left;
+    padding: 0.65%;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.33%;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: darkgrey;
+    color: rgb(100, 95, 95);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@media screen and (max-width: 250px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
