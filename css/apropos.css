@@ -5,6 +5,10 @@ body {
     box-sizing: border-box;
 }
 
+span {
+    font-style: italic;
+}
+
 .top-section {
     padding: 50px;
     padding-top: 65px;
