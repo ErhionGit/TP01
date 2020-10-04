@@ -45,6 +45,72 @@ body {
     box-sizing: inherit;
 }
 
+
+/* 
+ * Footer styles
+ */
+
+footer {
+    background-color: #292d37;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 210px;
+    width: 100%;
+}
+
+.footer-container {
+    padding-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer-column {
+    font-family: Neuton, serif;
+    position: relative;
+    min-height: 1px;
+    padding: 15px;
+    float: left;
+    width: 33.33%;
+    font-weight: 400;
+    color: #bbb;
+    line-height: 1.8;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer h3 {
+    margin: 0 0 6px 0;
+    font-family: Neuton, serif;
+    font-size: 20px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    font-size: 16px;
+    color: #bbb;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 250px) {
     .navbar a {
         float: none;
